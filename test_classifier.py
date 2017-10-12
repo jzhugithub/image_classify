@@ -29,7 +29,7 @@ tf.app.flags.DEFINE_string(
 
 tf.app.flags.DEFINE_integer(
     'test_number', None,
-    'The number if images to test')
+    'The number of images to test')
 
 tf.app.flags.DEFINE_integer(
     'num_classes', 80, 'Number of classes.')
